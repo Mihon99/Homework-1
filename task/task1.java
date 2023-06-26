@@ -8,7 +8,6 @@ public class task1 {
         return a / b;
     }
 
-
     public static int getValue(int[] array, int index) {
         if (index > array.length) {
             throw new IndexOutOfBoundsException("Индекс не может быть за пределами массива!");
